@@ -6,9 +6,12 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "react-test-renderer": "^16.13.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -16,7 +19,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "cy:open": "npm start --silent & cypress open",
-    "cy:run": "BROWSER=none npm start & cypress run" },
+    "cy:run": "BROWSER=none npm start & cypress run"
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -33,6 +37,7 @@
     ]
   },
   "devDependencies": {
-    "cypress": "^4.5.0"
+    "cypress": "^4.5.0",
+    "jest": "^26.0.1"
   }
 }
